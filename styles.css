@@ -71,7 +71,12 @@ img{
     height: fit-content;
     width:fit-content;
     max-width: 300px;
-    
-    
-
+    border-radius:20px;
+}
+#img-y{
+    background-color: black;
+    height:60px;
+    /* border-width: 1px; */
+    /* border-color: black; */
+    border-radius: 50%;
 }
