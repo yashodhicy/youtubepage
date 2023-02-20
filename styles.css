@@ -1,18 +1,38 @@
 div{
-    display: block;
+    display: flex;
+    /* flex-direction: row; */
+ 
 }
+
 #start{
     display: inline-flex; 
-    height:50px; 
-    /* width:150px;  */
+    flex-direction: row;
+    height:50px;  
+    width:20%;
     
 }
+#middle{
+   position: absolute;
+   
+   /* flex:1; */
+   display:inline-flex;
+   flex-direction: row;
+   height:50px;
+   /* width:100%; */
+   border: none;
+}
+#search{
+    height:50%;
+    
+}
+
 button{
+    margin:0%;
     border: none;
     background-color:#ffffff;
 }
 .menu{
-    display: inline-block;
+    /* display: inline-block; */
     writing-mode: horizontal-tb;
     /* position: relative; */
     /* left:0; */
@@ -21,10 +41,37 @@ button{
 }
  svg{
     display:inline-block;
-    margin: 0 5px;
+    /* margin: 0 5px; */
     
 }
-#yt-icon{
-    height:100%;
-    width:100%;
+
+#video{
+    display: inline-flex;
+    flex-direction: column;
+    width:60%;
+    margin:0;
+}
+#next{
+     display:inline-flex;
+    /* position: right; */
+    flex-direction: column; 
+    /* width:20%  */
+
+    position: fixed;
+    right:0;
+    top: 40px;
+    bottom: 0;
+    width: 30%;
+    align-items: right;
+    overflow-y: auto;
+}
+img{
+   
+    padding: 5px;
+    height: fit-content;
+    width:fit-content;
+    max-width: 300px;
+    
+    
+
 }
