@@ -1,0 +1,30 @@
+div{
+    display: block;
+}
+#start{
+    display: inline-flex; 
+    height:50px; 
+    /* width:150px;  */
+    
+}
+button{
+    border: none;
+    background-color:#ffffff;
+}
+.menu{
+    display: inline-block;
+    writing-mode: horizontal-tb;
+    /* position: relative; */
+    /* left:0; */
+    /* border:none; */
+    
+}
+ svg{
+    display:inline-block;
+    margin: 0 5px;
+    
+}
+#yt-icon{
+    height:100%;
+    width:100%;
+}
